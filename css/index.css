@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+html{
+    font-size: 15px;
+}
+
+
+
+/* header  */
+
+header{
+    width: 100%;
+    background-image: url(../img/dd.jpg);
+    background-size: cover;
+    text-align: center;
+    border-top: 0.7rem solid #5385c1 ;
+}
+
+.inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5% 5%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    color: #ffffff;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li{
+    margin-left: 2rem;
+}
+
+.fa-bars {
+    display: none;
+}
+
+
+/* banner */
+.banner{
+    margin:12rem 0 5.5rem 0 ;
+    color: #ffffff;
+}
+.banner h1{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+.banner h2{
+    font-size: 0.9rem;
+}
+
+
+
+/* 3 section  */
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.changes section h1{
+    color: #5385c1 ;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+
+.changes section p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: grey;
+    margin-top: 1.3rem;
+    line-height:1.3rem;
+}
+
+.changes hr{
+    border: 0; 
+    width: 0.1rem;
+    height: auto;
+    background-color:#dbdbdb;
+}
+
+.changes section button{
+    width: 5rem;
+    height: 2.3rem;
+    font-family: 'Raleway', sans-serif;
+    background-color: #5385c1;
+    border: 0;
+    margin-top: 1.3rem;
+    color: #ffffff;
+}
+
+
+
+/* 4 parsan */
+
+.parsan{
+    width: 100%;
+    background-color:  #5385c1 ;
+    text-align: center;
+    color: #ffffff;
+}
+
+.inner h3{
+    font-size: 2.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.inner p{
+    margin-bottom: 1.8rem;
+}
+
+ .parsan .inner .flex .p1{
+    border: 0.1rem solid #7ea4d1;
+    padding: 1.5rem 1.8rem 1rem 1.8rem;
+}
+
+.parsan .inner .flex .p1 img{
+    width: 50%;
+    border-radius: 100%;
+}
+
+.parsan .inner .flex .p1 h1{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.parsan .inner .flex .p1 p {
+    font-size: 1rem;
+    margin-top: 0.6rem;
+} 
+
+
+
+/* 2 section  */
+.inner .center{
+    text-align: center;
+}
+
+.inner .center h5{
+    color:  #5385c1;
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+
+.inner .flex .left{
+    width: 47%;
+}
+
+.inner .flex .right{
+    width: 47%;
+}
+
+.inner .flex .right img{
+    width: 100%;
+}
+
+.left img{
+   width: 100%;
+}
+
+.inner .flex .ch h4{
+    font-size:1.2rem;
+    font-weight:900;
+    margin-top:1rem;
+    color:  #5385c1;
+}
+
+.inner .flex .ch p{
+    margin-top: 1rem;
+
+}
+
+.inner .flex .ch button{
+    width: 5rem;
+    height: 2.3rem;
+    font-family: 'Raleway', sans-serif;
+    background-color: #5385c1;
+    border: 0;
+    margin-top: 1.3rem;
+    color: #ffffff;
+}
+
+
+
+/* footer  */
+
+.copy{
+    font-size:1.2rem;
+    margin-top:1.9rem;
+}
+
+.smedia{
+    color:  #5385c1;
+    margin-top: 1.5rem;
+    font-size: 1.6rem;
+}
+
+.smedia span{
+    padding-left:0.7rem;
+}
+
+.inner .footerhr{
+    border: 0;
+    width: 100%;
+    height: 0.1rem;
+    background-color:#dbdbdb;
+}
+
+
+
+
+
+@media only screen and (max-width:700px){
+    
+    /* header */
+    
+     ul{
+       position: absolute;
+       top: 4.5rem;
+       left: 1.3rem;
+       display: none;
+       text-align: left;
+    } 
+
+    ul li{
+        margin-left: 0rem;
+        padding: 0.4rem 0.7rem ;
+    }
+
+    .fa-bars {
+        display: block;
+        color: whitesmoke;
+    }
+
+
+    /* banner */
+    .inner .banner h1{
+        font-size:3rem;
+    }
+
+    .inner .banner h2{
+        font-size:0.7rem;
+    }
+    
+    .flex{
+        display: block;
+    }
+     
+    
+     /* 3 section */
+
+    .changes section{
+        width: 100%;
+        text-align: center;
+        border-bottom: 0.1rem solid #dbdbdb;
+        margin-top: 1rem;
+    }
+
+    .changes section button{
+        margin-top: 0rem;
+        margin-bottom: 1rem;
+    }
+
+
+
+    /* 4 parsan */
+    .parsan .inner h3{
+        margin-top: 1rem;
+    }
+    .parsan .inner .flex .p1{
+        padding: 4rem 1.8rem 4rem 1.8rem;
+        margin-top: 2rem;
+    }
+
+
+    /* 2 section  */
+
+    .inner .center h5{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .inner .flex .left {
+        width: 100%;
+        border-bottom: 0.1rem solid #dbdbdb;
+    }
+
+    .inner .flex .right {
+        width: 100%;
+        margin-top: 2rem;
+    }
+    
+    .inner .flex .ch button{
+        margin-top: 0.2rem;
+        margin-bottom: 2rem;
+    }
+
+
+
+    /* footer */
+    .media{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .copy p{
+        font-size: 0.9rem;
+    }
+
+    .smedia span{
+        font-size:0.8rem ;
+        padding-left:0.1rem;
+    }
+
+}
